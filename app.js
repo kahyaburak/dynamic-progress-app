@@ -29,5 +29,5 @@ db.initDatabase()
     app.listen(port);
   })
   .catch(function (error) {
-    console.log('Connecting to the database failed!');
+    console.log('Connecting to the database failed!', error);
   });
